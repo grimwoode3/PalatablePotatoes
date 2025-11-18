@@ -1,0 +1,119 @@
+body{
+    background-color: #efe7cd9d;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #c8dff893;
+    border: solid 2px #0991f3;
+}
+
+/*TEXT STYLES*/
+h1{
+    font-family: "potatoFont", Arial Black, Gadget, sans-serif;
+    font-size: 76px;
+    color: #0991f3;
+    margin: 6px;
+}
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 26px;
+    color: #cf7206;
+}
+h3{
+    margin-top: 6px;
+    font-size: 26px;
+    color: #cf7206;
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    color: #8a4c04;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*LINK STYLES*/
+a:link, a:visited{
+    color: #f78b0f;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: #f6ae2d;
+    text-decoration: underline;
+}
+#header a:link, #header a:visited{
+    color: #f78b0f;
+    font-weight: bold;
+    text-decoration: none;
+}
+#header a:hover, #header a:active{
+    color: #f6ae2d;
+    text-decoration: none;
+}
+
+/*MENU STYLES*/
+#menu{
+    width: 130px;
+    float: left;
+}
+#menu ul{
+    list-style-type: none;
+    margin-top: 6px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+/*MAIN STYLES*/
+#main{
+    margin-left: 150px;
+}
+
+/*FOOTER STYLES*/
+#footer{
+    background-color: #003e8d;
+    margin-top: 20px;
+    clear: both; /*MAKES FOOTER ALWAYS SIT UNDERNEATH MENU AND IMAGE*/
+}
+#footer p{
+    font-size: 14px;
+    padding: 5px;
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+}
+#footer a:link, #footer a:visited{
+    color: #de9633;
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer a:hover, #footer a:active{
+    color: #d6c4ab;
+    text-decoration: underline;
+}
+
+/*CLASS STYLES*/
+.rightfloat{
+    border: 2px solid #0991f3;
+    margin: 4px;
+    margin-top: 0px;
+    float: right;
+}
+.leftfloat{
+    border: 2px solid #0991f3;
+    margin: 4px;
+    float: left;
+}
+/*EVIL STYLES*/
+#evil{
+    font-size: 7px;
+    color: #8f3607;
+    padding: 0px;
+    margin-left: 150px;
+}
